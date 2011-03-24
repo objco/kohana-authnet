@@ -15,7 +15,7 @@ class Controller_AuthNet_Aim extends Controller_AuthNet_Template {
 		{
 			$aim = AuthNet_AIM::factory($_POST);
 
-			if ($aim->check() && $aim->process())
+			if ($aim->check() AND $aim->process())
 			{
 				$this->request->redirect('authnet/aim/success');
 			}
