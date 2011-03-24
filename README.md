@@ -5,8 +5,8 @@ AuthNet payment gateway module for Kohana v3.x, which features support for both 
 Note that Authorize.net now provides SDKs, you may want to consider vendor code from their [developer center](http://developer.authorize.net/downloads/).
 
 Documentation:
-- http://developer.authorize.net/api/aim/
-- http://developer.authorize.net/api/arb/
+* [AIM API Documentation](http://developer.authorize.net/api/aim/)
+* [ARB API Documentation](http://developer.authorize.net/api/arb/)
 
 ## Basic AIM Request
 
